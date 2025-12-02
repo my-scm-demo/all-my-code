@@ -10,12 +10,8 @@ jobs:
     steps:
     - name: Checkout Source
       uses: actions/checkout@v5
-      # Optional: ensure a specific .NET SDK is available from the tools cache
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '4.8'   # or the SDK/version you need (semantic or exact)
-
     - name: Build product1 with devenv
       run: |
         cd product1
