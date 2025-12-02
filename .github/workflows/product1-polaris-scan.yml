@@ -14,5 +14,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1
     - name: Build product1 with devenv
       run: |
+        where msbuild
+        where devenv.exe
         cd product1
-        devenv MediaPlayerUI.sln /build
+        devenv.exe MediaPlayerUI.sln /build
