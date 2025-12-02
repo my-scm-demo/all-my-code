@@ -29,5 +29,12 @@ jobs:
       run: |
         cd product1
         dir
-        devenv MediaPlayerUI.sln /build
-
+        #devenv MediaPlayerUI.sln /build
+    - name: Polaris Scan
+      uses: blackduck-inc/black-duck-security-scan@v2
+      with:
+        polaris_server_url: ${{ vars.POLARIS_SERVERURL }}
+        polaris_access_token: ${{ secrets.POLARIS_ACCESSTOKEN }}
+        polaris_assessment_types: 'SAST,SCA'
+        polaris_application_name: ALB-VB.NET-test
+        polaris_project_name: product1
