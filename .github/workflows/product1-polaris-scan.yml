@@ -12,10 +12,21 @@ jobs:
       uses: actions/checkout@v5
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
+    - name: Find Visual Studio Installation and Add Devenv to PATH
+      shell: powershell
+      run: |
+        # Use vswhere.exe to find the latest Visual Studio installation path
+        $vsPath = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -property installationPath
+        
+        # Construct the path to devenv.exe
+        $devenvDir = Join-Path $vsPath "Common7\IDE"
+        
+        # Add the devenv directory to the PATH environment variable for subsequent steps
+        echo "Adding $devenvDir to PATH"
+        echo "PATH=$devenvDir;$env:PATH" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
     - name: Build product1 with devenv
       run: |
-        where msbuild
-        where devenv.exe
         cd product1
         dir
-        #devenv.exe MediaPlayerUI.sln /build
+        devenv.exe MediaPlayerUI.sln /build
