@@ -29,4 +29,5 @@ jobs:
       run: |
         cd product1
         dir
-        devenv.exe MediaPlayerUI.sln /build
+        devenv MediaPlayerUI.sln /build
+
