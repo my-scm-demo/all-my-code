@@ -38,3 +38,4 @@ jobs:
         polaris_assessment_types: 'SAST,SCA'
         polaris_application_name: ALB-VB.NET-test
         polaris_project_name: product1
+        project_directory: ./product1
