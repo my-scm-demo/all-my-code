@@ -1,3 +1,0 @@
-Native Compiler and extra args: ./ 
-Working directory: C:\blackduck\tests\VB-net\all-my-code\product2
-Comptype: g++

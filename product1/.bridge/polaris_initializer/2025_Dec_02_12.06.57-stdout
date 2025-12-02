@@ -1,3 +1,0 @@
-C:\Users\AlBessey\Desktop\temp\bridge-cli-bundle-3.10.0-win64\adapters\polaris-initializer\versions\1.0.211/polaris-initializer C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_initializer\data.json
-{"level":"error","logger":"Polaris Initializer","msg":"required resource 'polaris.accessToken' is empty","time":"2025-12-02 12:06:58.4475 EST"}
-{"level":"error","logger":"Polaris Initializer","msg":"Invalid access token \"\": invalid length","time":"2025-12-02 12:06:58.4480 EST"}

@@ -1,9 +1,0 @@
-C:\Users\AlBessey\Desktop\temp\bridge-cli-bundle-3.10.0-win64\adapters\polaris-waiter\versions\0.2.90/polaris-waiter C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_waiter\data.json
-{"level":"info","logger":"Polaris Waiter","msg":"Waiting for test with assessment type \"SAST(sastFull)\" and id \"4976d2d8-fb44-4362-a23d-7c4db8cead51\"","time":"2025-12-02 12:25:38.6968 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Waiting for test with assessment type \"SCA(scaPackage)\" and id \"794c8c18-12c5-450d-aefe-22efa16823a8\"","time":"2025-12-02 12:25:38.6978 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SCA(scaPackage)\" and id \"794c8c18-12c5-450d-aefe-22efa16823a8\" is \"Queuing\"","time":"2025-12-02 12:25:38.9697 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SAST(sastFull)\" and id \"4976d2d8-fb44-4362-a23d-7c4db8cead51\" is \"Queuing\"","time":"2025-12-02 12:25:38.9800 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SCA(scaPackage)\" and id \"794c8c18-12c5-450d-aefe-22efa16823a8\" is \"Scanning \u0026 Publishing\"","time":"2025-12-02 12:25:59.2080 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"Polling Test Manager: state of test with assessment type \"SAST(sastFull)\" and id \"4976d2d8-fb44-4362-a23d-7c4db8cead51\" is \"Scanning\"","time":"2025-12-02 12:25:59.2755 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"test with assessment type \"SCA(scaPackage)\" and id \"794c8c18-12c5-450d-aefe-22efa16823a8\" completed successfully","time":"2025-12-02 12:26:19.4627 EST"}
-{"level":"info","logger":"Polaris Waiter","msg":"test with assessment type \"SAST(sastFull)\" and id \"4976d2d8-fb44-4362-a23d-7c4db8cead51\" completed successfully","time":"2025-12-02 12:26:29.6480 EST"}

@@ -1,4 +1,0 @@
-C:\Users\AlBessey\Desktop\temp\bridge-cli-bundle-3.10.0-win64\adapters\polaris-policy-checker\versions\0.2.81/polaris-policy-checker C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_policy_checker\data.json
-{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SAST(sastFull)\" assessment...","time":"2025-12-02 12:26:31.5643 EST"}
-{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SCA(scaPackage)\" assessment...","time":"2025-12-02 12:26:31.5649 EST"}
-{"level":"info","logger":"Polaris Policy Checker","msg":"no policies were violated to break the build","time":"2025-12-02 12:26:31.8921 EST"}

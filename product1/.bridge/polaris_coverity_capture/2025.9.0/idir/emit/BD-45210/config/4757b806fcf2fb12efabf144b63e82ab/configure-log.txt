@@ -1,4 +1,0 @@
-Native Compiler invocation: c:/program files/microsoft visual studio/18/community/msbuild/current/bin/roslyn/vbc.exe /noconfig @C:\Users\AlBessey\AppData\Local\Temp\MSBuildTemp\tmp7fb8f9777fb840a58f6d06cb25fbf4d4.rsp
-Working directory: C:\blackduck\tests\VB-net\all-my-code\product1\MediaPlayerUI
-Comptype: vbc
-* Configuring c:\program files\microsoft visual studio\18\community\msbuild\current\bin\roslyn\vbc as a Visual Basic compiler

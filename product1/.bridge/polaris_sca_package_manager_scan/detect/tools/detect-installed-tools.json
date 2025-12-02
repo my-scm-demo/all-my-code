@@ -1,6 +1,0 @@
-{
-  "version": "0.1.0",
-  "tools": {
-    "detect-nuget-inspector": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_sca_package_manager_scan\\detect\\tools\\detect-nuget-inspector\\detect-nuget-inspector-2.4.0-windows\\detect-nuget-inspector.exe"
-  }
-}

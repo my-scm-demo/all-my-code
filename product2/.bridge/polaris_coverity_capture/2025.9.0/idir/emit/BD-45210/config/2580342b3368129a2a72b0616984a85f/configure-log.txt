@@ -1,4 +1,0 @@
-Native Compiler invocation: c:/program files/dotnet/sdk/10.0.100/roslyn/bincore/vbc.exe /noconfig @C:\Users\AlBessey\AppData\Local\Temp\MSBuildTemp\tmp5cdfad0d4cf847aba0bd38ac54ae581c.rsp
-Working directory: C:\blackduck\tests\VB-net\all-my-code\product2\MenuSimpleApp_vb
-Comptype: vbc
-* Configuring c:\program files\dotnet\sdk\10.0.100\roslyn\bincore\vbc as a Visual Basic compiler
