@@ -1,0 +1,5 @@
+Encountered compiler invocation for first time, configuring it: c:/program files/dotnet/sdk/10.0.100/roslyn/bincore/vbc
+[STATUS] Using comptype vbc
+Added template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/2580342b3368129a2a72b0616984a85f/coverity_config.xml
+Added template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+Using cached template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml

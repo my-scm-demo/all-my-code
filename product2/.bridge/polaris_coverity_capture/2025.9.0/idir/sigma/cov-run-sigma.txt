@@ -1,0 +1,13 @@
+Running Sigma.
+C:\Users\AlBessey\.blackduck\bridge\tools\sigma\2025.10.0\sigma.exe --config C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\sigma\sigma-config.json --internal-polaris-scan-log C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\sigma\sigma-log.json --internal-coverity-config C:\Users\AlBessey\AppData\Local\Temp\cov-run-sigma-config-2284582610\coverity.yaml analyze C:\blackduck\tests\VB-net\all-my-code\product2
+
+Importing sources...
+Detected ISO-8859-1 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/coverity.yaml
+Detected ISO-8859-1 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/MenuSimpleApp_vb/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.vb
+Detected UTF-8 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/MenuSimpleApp_vb/Program.vb
+Detected UTF-8 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/MenuSimpleApp_vb/Classes/MenuOperations.vb
+Detected UTF-8 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/MenuSimpleApp_vb/Classes/MockOperations.vb
+Detected ISO-8859-1 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/.gitignore
+Detected ISO-8859-1 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/MenuSimpleApp_vb/obj/Debug/net6.0/MenuSimpleApp.AssemblyInfo.vb
+Detected UTF-8 encoding for C:/blackduck/tests/VB-net/all-my-code/product2/MenuSimpleApp_vb/Classes/MenuItem.vb
+Completed source import.

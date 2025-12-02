@@ -1,0 +1,253 @@
+Translation unit:
+2 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form1.Designer.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+76 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/mscorlib.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+75 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Xml.Linq.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+74 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Xml.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+73 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Windows.Forms.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+72 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Net.Http.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+71 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Drawing.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+70 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+69 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Deployment.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+68 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Data.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+67 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Data.DataSetExtensions.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+66 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/System.Core.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+65 -> C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.8/Microsoft.VisualBasic.dll (cache stub) (recorded with source)
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+1 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form1.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+11 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+10 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Settings.Designer.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+9 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Resources.Designer.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+8 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Application.Designer.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+7 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/AssemblyInfo.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+6 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form3.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+5 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form3.Designer.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+4 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form2.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+3 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form2.Designer.vb (no ASTs) (recorded with source)
+cov-emit-vb invocation time (seconds): 2
+cov-translate invocation time (seconds): 3
+cov-build invocation time (seconds): 15
+Translation unit:
+52 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form2.Designer.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+51 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Resources.Designer.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+53 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form1.Designer.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+54 -> C:/blackduck/tests/VB-net/all-my-code/product1/coverity.yaml (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+55 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttributes.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+56 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form3.Designer.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+57 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form2.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+58 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Settings.Designer.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+59 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Application.Designer.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+60 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form1.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+61 -> C:/blackduck/tests/VB-net/all-my-code/product1/LICENSE (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+62 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/AssemblyInfo.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+63 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form3.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+64 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.vb (text data)
+cov-emit-text invocation time (seconds): 0
+Translation unit:
+25 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI.sln (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+24 -> C:/blackduck/tests/VB-net/all-my-code/product1/README.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+39 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Settings.settings (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+27 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+28 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.vbproj.FileListAbsolute.txt (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+29 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/App.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+30 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/bin/Debug/MediaPlayerUI.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+31 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/bin/Debug/MediaPlayerUI.vshost.exe.config (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+32 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/MediaPlayerUI.vbproj (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+33 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form1.resx (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+34 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form2.resx (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+35 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/Form3.resx (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+36 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/MediaPlayerUI.vbproj.user (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+37 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Application.myapp (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+38 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/My Project/Resources.resx (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+26 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/bin/Debug/MediaPlayerUI.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+40 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/bin/Debug/MediaPlayerUI.vshost.exe.manifest (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+41 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+42 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+43 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.Form1.resources (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+44 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.Form2.resources (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+45 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.Form3.resources (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+46 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.Resources.resources (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+47 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.vbproj.AssemblyReference.cache (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+48 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.vbproj.CoreCompileInputs.cache (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+49 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.vbproj.GenerateResource.cache (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+50 -> C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.vbprojResolveAssemblyReference.cache (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2

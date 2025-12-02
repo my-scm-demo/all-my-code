@@ -1,0 +1,15 @@
+C:\Users\AlBessey\Desktop\temp\bridge-cli-bundle-3.10.0-win64\adapters\polaris-artifacts-uploader\versions\0.2.129/polaris-artifacts-uploader C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_artifacts_uploader\data.json
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"SAST(sastFull)\" assessment with id \"2ad5f987-ba18-44de-be71-2a69ef1ddd5a\"","time":"2025-12-02 15:36:10.5306 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"SCA(scaPackage)\" assessment with id \"70125ef7-d5ab-4d52-9761-c4d5cfb3e736\"","time":"2025-12-02 15:36:10.5318 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading artifact C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_sca_package_manager_scan\\blackduck-sca-artifacts.zip for \"SCA(scaPackage)\" assessment","time":"2025-12-02 15:36:11.2666 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading artifact C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip for \"SAST(sastFull)\" assessment","time":"2025-12-02 15:36:11.2707 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SCA(scaPackage)\" artifact: 100%  995/995","time":"2025-12-02 15:36:11.4494 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:   0%  16384/2897568","time":"2025-12-02 15:36:11.4499 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  25%  737280/2897568","time":"2025-12-02 15:36:11.5575 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  50%  1458176/2897568","time":"2025-12-02 15:36:11.9628 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"C:\\\\blackduck\\\\tests\\\\VB-net\\\\all-my-code\\\\product1\\\\.bridge\\\\polaris_sca_package_manager_scan\\\\blackduck-sca-artifacts.zip\"","time":"2025-12-02 15:36:12.0616 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  75%  2179072/2897568","time":"2025-12-02 15:36:12.5106 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"SCA(scaPackage)\" assessment with id \"70125ef7-d5ab-4d52-9761-c4d5cfb3e736\"","time":"2025-12-02 15:36:12.5416 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact: 100%  2897568/2897568","time":"2025-12-02 15:36:12.9677 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"C:\\\\blackduck\\\\tests\\\\VB-net\\\\all-my-code\\\\product1\\\\.bridge\\\\polaris_coverity_capture\\\\idir.zip\"","time":"2025-12-02 15:36:13.7938 EST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"SAST(sastFull)\" assessment with id \"2ad5f987-ba18-44de-be71-2a69ef1ddd5a\"","time":"2025-12-02 15:36:14.0875 EST"}

@@ -1,0 +1,26 @@
+{
+  "Name": "Nuget Inspector Inspection Result",
+  "Version": "1.0.0",
+  "Containers": [
+    {
+      "Name": "MediaPlayerUI",
+      "Type": "Solution",
+      "SourcePath": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\MediaPlayerUI.sln",
+      "Packages": [],
+      "Dependencies": [],
+      "Children": [
+        {
+          "Name": "MediaPlayerUI",
+          "Version": "1.0.0-",
+          "Type": "Project",
+          "SourcePath": "C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/MediaPlayerUI.vbproj",
+          "Packages": [],
+          "Dependencies": [],
+          "Children": [],
+          "PackagePropertyPackages": []
+        }
+      ],
+      "PackagePropertyPackages": []
+    }
+  ]
+}

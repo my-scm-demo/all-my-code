@@ -1,0 +1,917 @@
+{
+  "type": "Coverity CLI Diagnostics Data",
+  "version": 1,
+  "general": {
+    "coverity-static-analysis-version": "2025.9.0"
+  },
+  "capture": {
+    "primary-capture-mode": "Build",
+    "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\coverity.exe capture --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir -o analyze.location=connect",
+    "working-directory": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+    "project-directory": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+    "intermediate-directory": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir",
+    "configuration-file-path": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\coverity.yaml",
+    "configuration": {
+      "command-line-overrides": [
+        "--config-override",
+        "analyze.location=connect"
+      ],
+      "file-configuration": {
+        "capture": {
+          "build": {
+            "build-command": "devenv MediaPlayerUI.sln /Build",
+            "clean-command": "devenv MediaPlayerUI.sln /Clean"
+          }
+        },
+        "analyze": {
+          "aggressiveness-level": "high",
+          "checkers": {
+            "all": true,
+            "android-security": true,
+            "audit": true,
+            "c-family-security": true,
+            "concurrency": true,
+            "default": true,
+            "rule": true,
+            "webapp-security": {
+              "enabled": true,
+              "aggressiveness-level": "high"
+            }
+          },
+          "cov-analyze-args": [
+            "--enable-audit-dataflow"
+          ],
+          "parse-warnings": {
+            "enabled": true
+          },
+          "trust": {
+            "all": false
+          }
+        },
+        "commit": null
+      },
+      "effective-configuration": {
+        "capture": {
+          "build": {
+            "build-command": "devenv MediaPlayerUI.sln /Build",
+            "clean-command": "devenv MediaPlayerUI.sln /Clean"
+          }
+        },
+        "analyze": {
+          "aggressiveness-level": "high",
+          "checkers": {
+            "all": true,
+            "android-security": true,
+            "audit": true,
+            "c-family-security": true,
+            "concurrency": true,
+            "default": true,
+            "rule": true,
+            "webapp-security": {
+              "enabled": true,
+              "aggressiveness-level": "high"
+            }
+          },
+          "cov-analyze-args": [
+            "--enable-audit-dataflow"
+          ],
+          "location": "connect",
+          "parse-warnings": {
+            "enabled": true
+          },
+          "trust": {
+            "all": false
+          }
+        },
+        "commit": null,
+        "caching": {
+          "bytecode": true,
+          "tu": false,
+          "wur": true
+        }
+      },
+      "configuration-hash": "1758570cb3cd9c2a9e16b56b16816e86cef4066e840ca5570815a32fab20410d"
+    },
+    "capture-summary": {
+      "files-captured": 53,
+      "ignored": 6,
+      "lines-of-code": 2990,
+      "succeeded": 53
+    },
+    "capture-rate": 100,
+    "command-info": [
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-manage-emit --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir check-compatible",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "Intermediate directory C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir is compatible"
+        ],
+        "start-time": "2025-12-02T15:35:26.1024094-05:00",
+        "end-time": "2025-12-02T15:35:26.1502112-05:00",
+        "duration": 47801800
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-manage-emit --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir reset-host-name",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "start-time": "2025-12-02T15:35:24.9975811-05:00",
+        "end-time": "2025-12-02T15:35:26.1024094-05:00",
+        "duration": 1104828300
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-internal-manage-cache check",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "start-time": "2025-12-02T15:35:26.1539499-05:00",
+        "end-time": "2025-12-02T15:35:27.8625158-05:00",
+        "duration": 1708565900
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-manage-emit --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir list-capture-diagnostics",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "    },",
+          "    {",
+          "      \"file-path\" : \"C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.exe\",",
+          "      \"last-modified\" : \"2025-12-02T17:25:10+0000\",",
+          "      \"file-size-in-bytes\" : 84480,",
+          "      \"code-line-count\" : 0,",
+          "      \"translation-unit\" : null",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2025-12-02T15:35:27.888136-05:00",
+        "end-time": "2025-12-02T15:35:27.9564517-05:00",
+        "duration": 68315700
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler gcc --comptype gcc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: *-g++ *-gcc ar g++ g++-* gcc gcc-* ld"
+        ],
+        "start-time": "2025-12-02T15:35:28.0366321-05:00",
+        "end-time": "2025-12-02T15:35:28.5856904-05:00",
+        "duration": 549058300
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler cc --comptype gcc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: cc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2025-12-02T15:35:28.5856904-05:00",
+        "end-time": "2025-12-02T15:35:28.9645361-05:00",
+        "duration": 378845700
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler c++ --comptype g++ --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: c++"
+        ],
+        "start-time": "2025-12-02T15:35:28.9645361-05:00",
+        "end-time": "2025-12-02T15:35:29.3521046-05:00",
+        "duration": 387568500
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler clang --comptype clangcc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: clang clang++"
+        ],
+        "start-time": "2025-12-02T15:35:29.353152-05:00",
+        "end-time": "2025-12-02T15:35:29.741195-05:00",
+        "duration": 388043000
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler java --comptype java --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: apt java javac javaw",
+          "Successfully generated configuration for the buildless capture patterns: jar"
+        ],
+        "start-time": "2025-12-02T15:35:29.741195-05:00",
+        "end-time": "2025-12-02T15:35:30.1102564-05:00",
+        "duration": 369061400
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler go --comptype go --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: go"
+        ],
+        "start-time": "2025-12-02T15:35:30.1120084-05:00",
+        "end-time": "2025-12-02T15:35:30.4942279-05:00",
+        "duration": 382219500
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler ccache --comptype prefix --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: ccache"
+        ],
+        "start-time": "2025-12-02T15:35:30.495803-05:00",
+        "end-time": "2025-12-02T15:35:30.8706375-05:00",
+        "duration": 374834500
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler kotlinc --comptype kotlinc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: kotlin kotlinc",
+          "Successfully generated configuration for the buildless capture patterns: android kotlin-module"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-java-config-0 already exists for java and will be reused. ",
+          "[WARNING] Template config template-apt-config-0 already exists for apt and will be reused. ",
+          "[WARNING] Template config template-javaw-config-0 already exists for javaw and will be reused. "
+        ],
+        "start-time": "2025-12-02T15:35:30.8706375-05:00",
+        "end-time": "2025-12-02T15:35:31.2551172-05:00",
+        "duration": 384479700
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler csc --comptype csc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: csc csc.dll csc2 devenv dotnet microsoft.aspnetcore.mvc.razor.viewcompilation microsoft.aspnetcore.mvc.razor.viewcompilation-x64 microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll microsoft.aspnetcore.mvc.razor.viewcompilation-x86 microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll microsoft.aspnetcore.mvc.razor.viewcompilation.dll msbuild razor"
+        ],
+        "start-time": "2025-12-02T15:35:31.2551172-05:00",
+        "end-time": "2025-12-02T15:35:31.650319-05:00",
+        "duration": 395201800
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler vbc --comptype vbc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: vbc vbc.dll"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-dotnet-config-0 already exists for dotnet and will be reused. "
+        ],
+        "start-time": "2025-12-02T15:35:31.6519603-05:00",
+        "end-time": "2025-12-02T15:35:32.1008745-05:00",
+        "duration": 448914200
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler cl --comptype msvc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: cl lib link"
+        ],
+        "start-time": "2025-12-02T15:35:32.1008745-05:00",
+        "end-time": "2025-12-02T15:35:32.5765589-05:00",
+        "duration": 475684400
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler i686-w64-mingw32-gcc --comptype gcc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: i686-w64-mingw32-g++ i686-w64-mingw32-gcc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2025-12-02T15:35:32.5765589-05:00",
+        "end-time": "2025-12-02T15:35:33.0102904-05:00",
+        "duration": 433731500
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler i686-w64-mingw32-c++ --comptype g++ --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: i686-w64-mingw32-c++"
+        ],
+        "start-time": "2025-12-02T15:35:33.0108712-05:00",
+        "end-time": "2025-12-02T15:35:33.4664845-05:00",
+        "duration": 455613300
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler mingw32-gcc --comptype gcc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: mingw32-g++ mingw32-gcc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2025-12-02T15:35:33.4669951-05:00",
+        "end-time": "2025-12-02T15:35:34.0462224-05:00",
+        "duration": 579227300
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler mingw32-c++ --comptype g++ --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: mingw32-c++"
+        ],
+        "start-time": "2025-12-02T15:35:34.0462224-05:00",
+        "end-time": "2025-12-02T15:35:34.4840328-05:00",
+        "duration": 437810400
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler x86_64-w64-mingw32-gcc --comptype gcc --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc"
+        ],
+        "stderr-tail": [
+          "[WARNING] Template config template-gcc-config-1 already exists for gcc-* and will be reused. ",
+          "[WARNING] Template config template-gcc-config-2 already exists for *-gcc and will be reused. ",
+          "[WARNING] Template config template-g++-config-1 already exists for g++-* and will be reused. ",
+          "[WARNING] Template config template-g++-config-2 already exists for *-g++ and will be reused. ",
+          "[WARNING] Template config template-ld-config-0 already exists for ld and will be reused. ",
+          "[WARNING] Template config template-ar-config-0 already exists for ar and will be reused. "
+        ],
+        "start-time": "2025-12-02T15:35:34.4845357-05:00",
+        "end-time": "2025-12-02T15:35:34.9624044-05:00",
+        "duration": 477868700
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --compiler x86_64-w64-mingw32-c++ --comptype g++ --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the compilers: x86_64-w64-mingw32-c++"
+        ],
+        "start-time": "2025-12-02T15:35:34.9624044-05:00",
+        "end-time": "2025-12-02T15:35:35.4909675-05:00",
+        "duration": 528563100
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --dart",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files dart"
+        ],
+        "start-time": "2025-12-02T15:35:35.4914702-05:00",
+        "end-time": "2025-12-02T15:35:35.9068951-05:00",
+        "duration": 415424900
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --javascript",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "[NOTE] This Coverity installation only supports record with source for \"javascript\". Attempts to capture source files for this language without specifying --record-with-source to cov-build will be ignored.",
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files html javascript jsx typescript vue"
+        ],
+        "start-time": "2025-12-02T15:35:35.9088903-05:00",
+        "end-time": "2025-12-02T15:35:36.3741282-05:00",
+        "duration": 465237900
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --php",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files php"
+        ],
+        "start-time": "2025-12-02T15:35:36.3763962-05:00",
+        "end-time": "2025-12-02T15:35:36.8299162-05:00",
+        "duration": 453520000
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --python",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files python"
+        ],
+        "start-time": "2025-12-02T15:35:36.8299162-05:00",
+        "end-time": "2025-12-02T15:35:37.2419547-05:00",
+        "duration": 412038500
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --ruby",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Generated coverity_config.xml at location C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml",
+          "Successfully generated configuration for the buildless capture patterns: capture-config-files ruby"
+        ],
+        "start-time": "2025-12-02T15:35:37.2419547-05:00",
+        "end-time": "2025-12-02T15:35:37.6553765-05:00",
+        "duration": 413421800
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-configure -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --comptype capture-config-files --file-regex $capture-config-files$ --template",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stderr-tail": [
+          "[WARNING] Configuration already exists for file regex $capture-config-files$",
+          "          and it will not be updated."
+        ],
+        "start-time": "2025-12-02T15:35:37.6553765-05:00",
+        "end-time": "2025-12-02T15:35:37.7026895-05:00",
+        "duration": 47313000
+      },
+      {
+        "command-line": "cmd /c devenv MediaPlayerUI.sln /Clean",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "",
+          "Microsoft Visual Studio Version 18.0.2.",
+          "Copyright (C) Microsoft Corp. All rights reserved.",
+          "Clean started at 3:35 PM...",
+          "1\u003e------ Clean started: Project: MediaPlayerUI, Configuration: Debug Any CPU ------",
+          "========== Clean: 1 succeeded, 0 failed, 0 skipped ==========",
+          "========== Clean completed at 3:35 PM and took 00.822 seconds =========="
+        ],
+        "start-time": "2025-12-02T15:35:37.7934754-05:00",
+        "end-time": "2025-12-02T15:35:40.7489257-05:00",
+        "duration": 2955450300
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-build --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv MediaPlayerUI.sln /Build",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "1\u003e  MediaPlayerUI -\u003e C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\MediaPlayerUI\\bin\\Debug\\MediaPlayerUI.exe",
+          "========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========",
+          "========== Build completed at 3:35 PM and took 09.534 seconds ==========",
+          "Attempting to detect unconfigured compilers in build",
+          "|0----------25-----------50----------75---------100|",
+          "****************************************************",
+          "Recorded 11 Visual Basic compilation units (100%) successfully. These compilation units are ready for replay",
+          "",
+          "The cov-build utility completed successfully.",
+          ""
+        ],
+        "start-time": "2025-12-02T15:35:40.7489257-05:00",
+        "end-time": "2025-12-02T15:35:57.0099611-05:00",
+        "duration": 16261035400,
+        "meta": {
+          "build-metrics": {
+            "args": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-build --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv MediaPlayerUI.sln /Build",
+            "buildcmd": "cmd.exe /c devenv MediaPlayerUI.sln /Build",
+            "config": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\build-compiler-configs\\coverity_config.xml",
+            "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+            "cygwin": "no",
+            "dotnet-webapp-compilation-secs": "0",
+            "dotnet-webapp-successes": "0",
+            "dotnet-webapps-detected": "0",
+            "emitdir": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\emit",
+            "failures": "0",
+            "force": "yes",
+            "host": "BD-45210",
+            "ident": "2025.9.0 (build 477d3c5ddd p-2025.9-push-57)",
+            "intermediatedir": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir",
+            "outputdir": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\output",
+            "platform": "Windows 11 Enterprise, 64-bit (build 26100)",
+            "recoverable-errors": "0",
+            "security-da-ms": "0",
+            "short-platform": "win64",
+            "successes": "11",
+            "time": "15",
+            "user": "AlBessey"
+          }
+        }
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-manage-emit --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir list-capture-diagnostics",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "    },",
+          "    {",
+          "      \"file-path\" : \"C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.exe\",",
+          "      \"last-modified\" : \"2025-12-02T20:35:51+0000\",",
+          "      \"file-size-in-bytes\" : 84480,",
+          "      \"code-line-count\" : 0,",
+          "      \"translation-unit\" : null",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2025-12-02T15:35:57.0104646-05:00",
+        "end-time": "2025-12-02T15:35:57.0760577-05:00",
+        "duration": 65593100
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-internal-capture-files --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir -c C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\buildless-compiler-configs\\coverity_config.xml --ticker-mode none --append-log --capture-list-file C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir\\coverity-cli\\capture-file-list-1234632117 --record-with-source",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "[INFO] Buildless capture started.",
+          "[INFO] Emitting 27 Files.",
+          "[INFO] Buildless capture completed."
+        ],
+        "start-time": "2025-12-02T15:35:57.106515-05:00",
+        "end-time": "2025-12-02T15:35:59.7372251-05:00",
+        "duration": 2630710100
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-manage-emit --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir list-capture-diagnostics",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "    },",
+          "    {",
+          "      \"file-path\" : \"C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.exe\",",
+          "      \"last-modified\" : \"2025-12-02T20:35:51+0000\",",
+          "      \"file-size-in-bytes\" : 84480,",
+          "      \"code-line-count\" : 0,",
+          "      \"translation-unit\" : null",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2025-12-02T15:35:59.7383472-05:00",
+        "end-time": "2025-12-02T15:35:59.8157648-05:00",
+        "duration": 77417600
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-run-sigma --project-dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1 --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir --coverity-config C:\\Users\\AlBessey\\AppData\\Local\\Temp\\cov-run-sigma-config-995646305\\coverity.yaml --sigma-binary-path C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe --enable-telemetry",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "cov-run-sigma version 2025.9.0 on Windows 11 Enterprise, 64-bit (build 26100)",
+          "Internal version numbers: 477d3c5ddd p-2025.9-push-57",
+          ""
+        ],
+        "start-time": "2025-12-02T15:35:59.8189616-05:00",
+        "end-time": "2025-12-02T15:36:03.289468-05:00",
+        "duration": 3470506400
+      },
+      {
+        "command-line": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\cov-thin-client\\2025.9.0\\bin\\cov-manage-emit --dir C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\2025.9.0\\idir list-capture-diagnostics",
+        "cwd": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+        "env": {
+          "COVERITY_CACHE_API_TOKEN_FILE": "C:\\Users\\AlBessey\\AppData\\Local\\Temp\\polaris_coverity_cache2710332084\\.authKey",
+          "COVERITY_CACHE_KEY": "03f591f9-c714-4349-8557-1235a21ef1d6",
+          "COVERITY_CACHE_URL": "https://poc.polaris.blackduck.com/api/cache",
+          "COVERITY_CLI_CAPTURE_ZIP_ARCHIVE": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_coverity_capture\\idir.zip",
+          "COVERITY_CLI_POLARIS_CLIENT": "true",
+          "COVERITY_CLI_POLARIS_SIGMA": "C:\\Users\\AlBessey\\.blackduck\\bridge\\tools\\sigma\\2025.10.0\\sigma.exe",
+          "COVERITY_NO_LOG_ENVIRONMENT_VARIABLES": "1"
+        },
+        "stdout-tail": [
+          "    },",
+          "    {",
+          "      \"file-path\" : \"C:/blackduck/tests/VB-net/all-my-code/product1/MediaPlayerUI/obj/Debug/MediaPlayerUI.exe\",",
+          "      \"last-modified\" : \"2025-12-02T20:35:51+0000\",",
+          "      \"file-size-in-bytes\" : 84480,",
+          "      \"code-line-count\" : 0,",
+          "      \"translation-unit\" : null",
+          "    }",
+          "  ]",
+          "}"
+        ],
+        "start-time": "2025-12-02T15:36:03.3107235-05:00",
+        "end-time": "2025-12-02T15:36:03.374126-05:00",
+        "duration": 63402500
+      }
+    ]
+  },
+  "analysis": {
+    "configuration": {}
+  }
+}

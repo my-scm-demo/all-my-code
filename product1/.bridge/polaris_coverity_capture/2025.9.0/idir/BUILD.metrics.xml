@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>15</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-build --dir C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir -c C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv MediaPlayerUI.sln /Build</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>BD-45210</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>win64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Windows 11 Enterprise, 64-bit (build 26100)</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2025.9.0 (build 477d3c5ddd p-2025.9-push-57)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>AlBessey</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>C:\blackduck\tests\VB-net\all-my-code\product1</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir\output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir\emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>yes</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>11</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>security-da-ms</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>cmd.exe /c devenv MediaPlayerUI.sln /Build</value>
+    </metric>
+</metrics>
+</coverity>

@@ -1,0 +1,170 @@
+{
+  "sourcePath": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product2",
+  "globalMetadata": {},
+  "componentList": [
+    {
+      "artifactID": "ConsoleHelperLibrary",
+      "version": "1.0.2",
+      "metadata": {},
+      "declarationLocation": {
+        "fileLocations": [
+          {
+            "filePath": "MenuSimpleApp_vb\\MenuSimpleApp.vbproj",
+            "lineLocations": [
+              {
+                "lineNumber": 20,
+                "columnLocations": [
+                  {
+                    "colStart": 67,
+                    "colEnd": 71
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "filePath": "MenuSimpleApp_vb\\obj\\project.assets.json",
+            "lineLocations": [
+              {
+                "lineNumber": 65,
+                "columnLocations": [
+                  {
+                    "colStart": 32,
+                    "colEnd": 36
+                  }
+                ]
+              },
+              {
+                "lineNumber": 33,
+                "columnLocations": [
+                  {
+                    "colStart": 37,
+                    "colEnd": 41
+                  }
+                ]
+              },
+              {
+                "lineNumber": 37,
+                "columnLocations": [
+                  {
+                    "colStart": 31,
+                    "colEnd": 35
+                  }
+                ]
+              },
+              {
+                "lineNumber": 5,
+                "columnLocations": [
+                  {
+                    "colStart": 29,
+                    "colEnd": 33
+                  }
+                ]
+              },
+              {
+                "lineNumber": 121,
+                "columnLocations": [
+                  {
+                    "colStart": 26,
+                    "colEnd": 30
+                  }
+                ]
+              },
+              {
+                "lineNumber": 30,
+                "columnLocations": [
+                  {
+                    "colStart": 27,
+                    "colEnd": 31
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "artifactID": "Spectre.Console",
+      "version": "0.44.0",
+      "metadata": {},
+      "declarationLocation": {
+        "fileLocations": [
+          {
+            "filePath": "MenuSimpleApp_vb\\MenuSimpleApp.vbproj",
+            "lineLocations": [
+              {
+                "lineNumber": 21,
+                "columnLocations": [
+                  {
+                    "colStart": 62,
+                    "colEnd": 67
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "filePath": "MenuSimpleApp_vb\\obj\\project.assets.json",
+            "lineLocations": [
+              {
+                "lineNumber": 66,
+                "columnLocations": [
+                  {
+                    "colStart": 27,
+                    "colEnd": 32
+                  }
+                ]
+              },
+              {
+                "lineNumber": 58,
+                "columnLocations": [
+                  {
+                    "colStart": 26,
+                    "colEnd": 31
+                  }
+                ]
+              },
+              {
+                "lineNumber": 125,
+                "columnLocations": [
+                  {
+                    "colStart": 26,
+                    "colEnd": 31
+                  }
+                ]
+              },
+              {
+                "lineNumber": 44,
+                "columnLocations": [
+                  {
+                    "colStart": 22,
+                    "colEnd": 27
+                  }
+                ]
+              },
+              {
+                "lineNumber": 14,
+                "columnLocations": [
+                  {
+                    "colStart": 24,
+                    "colEnd": 29
+                  }
+                ]
+              },
+              {
+                "lineNumber": 47,
+                "columnLocations": [
+                  {
+                    "colStart": 32,
+                    "colEnd": 37
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

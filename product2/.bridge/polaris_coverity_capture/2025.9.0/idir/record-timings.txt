@@ -1,0 +1,33 @@
+# Version: 477d3c5ddd p-2025.9-push-57
+# Command Line: C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-build --dir C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir -c C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                              9453          1
+  create_or_open emit DB                  0          1
+    open emit DB                          0          1
+  add_string_to_table                     0         19
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0         99
+  Prepare capture                       375          1
+  Running build command                8063          1
+  parse_xml_config_file                   0          1
+  generate_generic_compiler_map         343          1
+    handle_derived_compiler               0         17
+  TUInfo::getPrimarySFRow                 0        167
+  (left over)                           672
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                              9453          1
+parse_xml_config_file                     0          1
+create_or_open emit DB                    0          1
+open emit DB                              0          1
+add_string_to_table                       0        118
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                         375          1
+Running build command                  8063          1
+generate_generic_compiler_map           343          1
+handle_derived_compiler                   0         17
+TUInfo::getPrimarySFRow                   0        167

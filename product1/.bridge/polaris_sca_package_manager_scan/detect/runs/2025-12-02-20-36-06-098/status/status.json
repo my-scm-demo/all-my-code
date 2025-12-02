@@ -1,0 +1,81 @@
+{
+  "formatVersion": "0.5.0",
+  "detectVersion": "10.4.0",
+  "projectName": "MediaPlayerUI",
+  "projectVersion": "1.0.0-",
+  "detectors": [
+    {
+      "folder": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1",
+      "detectorType": "NUGET",
+      "detectorName": "NuGet Solution Native Inspector",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\MediaPlayerUI.sln",
+        "Found inspector: C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_sca_package_manager_scan\\detect\\tools\\detect-nuget-inspector\\detect-nuget-inspector-2.4.0-windows\\detect-nuget-inspector.exe"
+      ],
+      "projectName": "MediaPlayerUI",
+      "projectVersion": "1.0.0-",
+      "codeLocationCount": 1
+    }
+  ],
+  "status": [
+    {
+      "key": "NUGET",
+      "status": "SUCCESS"
+    }
+  ],
+  "issues": [
+    {
+      "type": "EXCEPTION",
+      "title": "Generating Component Location Analysis File for All Components",
+      "messages": [
+        "Failed to generate Component Location Analysis file."
+      ]
+    }
+  ],
+  "overallStatus": [
+    {
+      "key": "SUCCESS",
+      "status": "Detect exited successfully."
+    }
+  ],
+  "results": [],
+  "unrecognizedPaths": {},
+  "codeLocations": [],
+  "propertyValues": {
+    "blackduck.offline.mode": "true",
+    "blackduck.offline.mode.force.bdio": "true",
+    "detect.bdio.file.name": "scan",
+    "detect.bdio.output.path": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_sca_package_manager_scan\\detect\\bdio\\blackduck_artifact",
+    "detect.cleanup": "false",
+    "detect.component.location.analysis.enabled": "true",
+    "detect.excluded.directories": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge",
+    "detect.output.path": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product1\\.bridge\\polaris_sca_package_manager_scan\\detect",
+    "detect.tools": "DETECTOR"
+  },
+  "operations": [
+    {
+      "startTimestamp": "2025-12-02 20:36:06.873",
+      "endTimestamp": "2025-12-02 20:36:09.568",
+      "descriptionKey": "Execute Detectors",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2025-12-02 20:36:09.576",
+      "endTimestamp": "2025-12-02 20:36:09.579",
+      "descriptionKey": "SubProject Aggregate",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2025-12-02 20:36:09.732",
+      "endTimestamp": "2025-12-02 20:36:09.732",
+      "descriptionKey": "Generating Component Location Analysis File for All Components",
+      "status": "FAILURE"
+    }
+  ]
+}

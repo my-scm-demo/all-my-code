@@ -1,0 +1,5 @@
+C:\Users\AlBessey\Desktop\temp\bridge-cli-bundle-3.10.0-win64\adapters\polaris-initializer\versions\1.0.211/polaris-initializer C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_initializer\data.json
+{"level":"info","logger":"Polaris Initializer","msg":"No version specified for cov_thin_client, using recommended version: 2025.9.0","time":"2025-12-02 12:24:49.7387 EST"}
+{"level":"info","logger":"Polaris Initializer","msg":"No version specified for detect, using recommended version: 10.4.0","time":"2025-12-02 12:24:49.7663 EST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SCA(scaPackage)\" assessment. The short test ID is \"BOZIF2N\"","time":"2025-12-02 12:24:50.1296 EST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SAST(sastFull)\" assessment. The short test ID is \"YPFZVA7\"","time":"2025-12-02 12:24:50.1830 EST"}

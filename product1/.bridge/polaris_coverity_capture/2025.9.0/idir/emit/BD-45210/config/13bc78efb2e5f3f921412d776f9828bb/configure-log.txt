@@ -1,0 +1,4 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_coverity_capture\2025.9.0\idir\tmp\cicf-89145d4e05fcf024dad415349ff27964\cov-translate-resp-file1
+Working directory: C:\blackduck\tests\VB-net\all-my-code\product1
+Comptype: capture-config-files
+* Configuring Configuration Buildless Capture

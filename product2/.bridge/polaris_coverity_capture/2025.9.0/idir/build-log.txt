@@ -1,0 +1,1161 @@
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> cov-build 2025.9.0 (build 477d3c5ddd p-2025.9-push-57)
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Coverity Build Capture (64-bit) version 2025.9.0 on Windows 11 Enterprise, 64-bit (build 26100)
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Internal version numbers: 477d3c5ddd p-2025.9-push-57
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Dumping from hostname : BD-45210
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Platform info: Windows 11 Enterprise, 64-bit (build 26100)
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> [INFO] Pre-existing intermediate directory is being reused: C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> cov-build command: C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-build --dir C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir -c C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv SpectreConsoleMenuVisualBasic.sln /Build 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> cov-build expanded command: C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-build --dir C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir -c C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv SpectreConsoleMenuVisualBasic.sln /Build 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> build command: C:\Windows\system32\cmd.exe /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> thunk command: cmd.exe /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_BUILD_COMMAND to "C:\Windows\system32\cmd.exe"  /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_ORIG_BUILD_COMMAND to cmd.exe /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_COV_BUILD_COMMAND to C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-build --dir C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir -c C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml --append-log --no-security-da --record-with-source --no-xrefs --enable-scan-transparency-data --bytecode-caching --force cmd /c devenv SpectreConsoleMenuVisualBasic.sln /Build 
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set MSBUILDDISABLENODEREUSE to 1
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set UseSharedCompilation to false.
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_BIN to C:/Users/AlBessey/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_SITE_CC to *-g++;*-gcc;apt;ar;c++;cc;ccache;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-*;gcc;gcc-*;go;i686-w64-mingw32-c++;i686-w64-mingw32-g++;i686-w64-mingw32-gcc;jar;java;javac;javaw;kotlin;kotlinc;ld;lib;link;microsoft.aspnetcore.mvc.razor.viewcompilation;microsoft.aspnetcore.mvc.razor.viewcompilation-x64;microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll;microsoft.aspnetcore.mvc.razor.viewcompilation-x86;microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll;microsoft.aspnetcore.mvc.razor.viewcompilation.dll;mingw32-c++;mingw32-g++;mingw32-gcc;msbuild;razor;vbc;vbc.dll;x86_64-w64-mingw32-c++;x86_64-w64-mingw32-g++;x86_64-w64-mingw32-gcc
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to dotnet
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_TEMP to C:/Users/AlBessey/AppData/Local/Temp/cov-AlBessey/8aa977d8f4242b622fb976c941fea00f
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_COMMON_TEMP to C:\Users\AlBessey\AppData\Local\Temp
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_IDIR to C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-15e206477c547cb534551b8ac41fda8d.s
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-15e206477c547cb534551b8ac41fda8d.m
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_OUTPUT_ENCODING to windows-1252
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_SYSTEM_ENCODING to windows-1252
+2025-12-02T20:38:45.815887Z|cov-build|3584|info|> Set COVERITY_EMIT to C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Set COVERITY_EMIT to C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Set COVERITY_JAVA_CONFIG to java#TEMPLATE##javac#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Set COVERITY_SITE_CC_JVM to apt;java;javac;javaw;kotlin;kotlinc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Set COVERITY_CONFIGURED_JVM_LANGUAGES to java;kotlin
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Set COVERITY_USING_CYGWIN to False
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Append to CYGWIN wincmdln
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Set COVERITY_EXEC_LOG_DIR to C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\exec-log\8aa977d8f4242b622fb976c941fea00f
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Dumping configuration:
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> User/default configuration:
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: command-line
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: prevent
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: dir Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: prevent
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: emit_options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: force_emit Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: prevent
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: emit_options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: no_xrefs Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: prevent
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: emit_options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: record_with_source Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-2\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-2\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-ld-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-ar-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-3\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-3\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcxx-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-java-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-javac-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-apt-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-javaw-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-jar-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-go-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-prefix-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-kotlinc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-kotlin-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-android-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-kotlin-module-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-csc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_devenv-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_msbuild-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-csc-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-csc-config-2\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-dotnet-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-2\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-3\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-4\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-5\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-6\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-vbc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-vbc-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_link-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_lib-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-4\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-4\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-5\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-5\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-6\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-7\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-6\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-8\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-9\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: gcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: gcc-gcc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-gcc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-gcc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: f9687def489d7080611c957e4baa9367
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: g++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-g++-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-g++-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: c28c5312f5cafb3461550021d5db74e3
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: gcc-*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: gcc-gcc-*-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-1/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-gcc-*-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-1/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-gcc-*-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-1/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: a78235e18925f1b08d266850c13072da
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-2\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: *-gcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: gcc-*-gcc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-2/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-*-gcc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-2/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-*-gcc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-2/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: 330d30838fa2e2405efcbf0025bbb1d9
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-1\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: g++-*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-g++-*-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-1/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-g++-*-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-1/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: e2e8095ec14432cf12688981162829bb
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-2\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: *-g++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-*-g++-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-2/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-*-g++-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-2/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: f63f9f20a2517b24ca5dec686eb6ca2d
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-ld-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: ld
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: ld
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: ld
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: ld-ld-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-ld-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: b7c847d801b0294a4f0f52192f7f3e16
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-ar-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: ar
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: ar
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: ar
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: ar-ar-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-ar-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: a125f1c14acadfc9d06e8f9e711705ce
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-3\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: cc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: gcc-cc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-3/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-cc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-3/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-cc-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-3/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: 47a502735554e6c25b61a8bf08e5fa6d
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-3\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: c++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++-c++-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-3/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: g++cc-c++-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-3/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: 6110077f86d72b6001f0d20220e5c335
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_name Value: clang
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_translator Value: clangcc
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_generic Value: clang
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_autodetect_type Value: clangcc:android
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_autodetect_type Value: clangcc:apple
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_autodetect_type Value: clangcc:llvm
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: comp_is_redirect Value: true
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: clangcc-clang-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: clangcxx-clang-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: clangcxxcc-clang-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: clangobjc-clang-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: id Value: clangobjcxx-clang-.*
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: md5 Value: 999eeab8f668f6ac09e46790d19b72ec
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcxx-config-0\coverity_config.xml
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.183128Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_name Value: clang++
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_translator Value: clangcxx
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_generic Value: clang
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_autodetect_type Value: clangcxx:android
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_autodetect_type Value: clangcxx:apple
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_autodetect_type Value: clangcxx:llvm
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_is_redirect Value: true
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: clangcxx-clang++-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcxx-config-0/../user_nodefs.h
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: clangcxxcc-clang++-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcxx-config-0/../user_nodefs.h
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: clangobjc-clang++-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcxx-config-0/../user_nodefs.h
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: clangobjcxx-clang++-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-clangcxx-config-0/../user_nodefs.h
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: md5 Value: db1ddc7eeb63c302f4d476ef2fa8942a
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-java-config-0\coverity_config.xml
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_name Value: java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_translator Value: java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_lang Value: Static Java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_generic Value: java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: java-java-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-javac-config-0\coverity_config.xml
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_name Value: javac
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_translator Value: javac
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_lang Value: Static Java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_generic Value: java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: javac-javac-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-apt-config-0\coverity_config.xml
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_name Value: apt
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_translator Value: apt
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_lang Value: Static Java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: comp_generic Value: java
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: id Value: apt-apt-.*
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-javaw-config-0\coverity_config.xml
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.193214Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_name Value: javaw
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_translator Value: javaw
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_lang Value: Static Java
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_generic Value: java
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: id Value: javaw-javaw-.*
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-jar-config-0\coverity_config.xml
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_name Value: jar
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_translator Value: jar
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_lang Value: Non Compiled
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_generic Value: java
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: id Value: jar-jar-.*
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: md5 Value: 33ddf2457cbbfcbe629d047272f2329e
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-go-config-0\coverity_config.xml
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_name Value: go
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_translator Value: go
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_lang Value: Go
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_generic Value: go
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: id Value: go-go-.*
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: md5 Value: 395609931cebc474122a4d66367445f5
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-prefix-config-0\coverity_config.xml
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_name Value: ccache
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_translator Value: prefix
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: id Value: prefix-ccache-.*
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: md5 Value: 537bdf30d4fa5ca926e1f5c8b36a34f4
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-kotlinc-config-0\coverity_config.xml
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_name Value: kotlinc
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_translator Value: kotlinc
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_lang Value: Kotlin
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: comp_generic Value: kotlin
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: id Value: kotlinc-kotlinc-.*
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|>   Node: md5 Value: c68e7b6acd2042f4dec6d624b2d2aa7b
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.194233Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-kotlin-config-0\coverity_config.xml
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_name Value: kotlin
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_translator Value: kotlin
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_lang Value: Kotlin
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_generic Value: kotlin
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: id Value: kotlin-kotlin-.*
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: md5 Value: 1d37b51d78837c20116306c377ae2080
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-android-config-0\coverity_config.xml
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_name Value: cov-buildless-capture-android-0
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_translator Value: android
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_lang Value: Non Compiled
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_generic Value: java
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: file_include_pattern Value: ^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml|gradlew|gradlew\.bat)$
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: id Value: android-cov-buildless-capture-android-0-.*
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: md5 Value: e21115e83670b4d100b3cd1e5f836e9f
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-kotlin-module-config-0\coverity_config.xml
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_name Value: cov-buildless-capture-kotlin-module-0
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_translator Value: kotlin-module
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_lang Value: Non Compiled
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_generic Value: kotlin
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: file_include_pattern Value: ^.*\.kotlin_module$
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: id Value: kotlin-module-cov-buildless-capture-kotlin-module-0-.*
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: md5 Value: d5103ac42059079569b985419c023bc7
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-csc-config-0\coverity_config.xml
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_name Value: csc
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_translator Value: csc
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_lang Value: C#
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: comp_generic Value: csc
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: id Value: csc-csc-.*
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.195225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_devenv-config-0\coverity_config.xml
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_name Value: devenv
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_translator Value: msvc_devenv
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_generic Value: msvc
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: id Value: msvc_devenv-devenv-.*
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_devenv-config-0/../user_nodefs.h
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: md5 Value: 9e7c8ebecfb66972e502b9a89af46eab
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_msbuild-config-0\coverity_config.xml
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_name Value: msbuild
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_translator Value: msvc_msbuild
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_generic Value: msvc
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_msbuild-config-0/../user_nodefs.h
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: md5 Value: e5c2e6f12a32bf80391c2b796b7efd24
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-csc-config-1\coverity_config.xml
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_name Value: csc2
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_translator Value: csc
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_lang Value: C#
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_generic Value: csc
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: id Value: csc-csc2-.*
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-csc-config-2\coverity_config.xml
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_name Value: csc.dll
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_translator Value: csc
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_lang Value: C#
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: comp_generic Value: csc
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: id Value: csc-csc.dll-.*
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|>   Node: md5 Value: d7617a61a1e5d38ea17e0065e15a334c
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-dotnet-config-0\coverity_config.xml
+2025-12-02T20:38:46.196225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_name Value: dotnet
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_translator Value: dotnet
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_lang Value: C#
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_capture_descendants Value: true
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_generic Value: dotnet
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: id Value: dotnet-dotnet-.*
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: md5 Value: c1f04f52f32e19ee321f007827420925
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-0\coverity_config.xml
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_name Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: id Value: razor-razor-.*
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: md5 Value: 299c29c5e1aed07e748c20434abece6a
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-1\coverity_config.xml
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-.*
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: md5 Value: 012f7f10f25cb7255cd3da914f9303b2
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-2\coverity_config.xml
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation.dll
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation.dll-.*
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: md5 Value: f144074c0456b3d3fe4011b5d8b3db91
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-3\coverity_config.xml
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.197225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x86
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x86-.*
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: md5 Value: 22238b5ed838db5e1a83a95e6b26b976
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-4\coverity_config.xml
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x64
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x64-.*
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: md5 Value: bd398ee66245bba5a4125fd742fd562f
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-5\coverity_config.xml
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll-.*
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: md5 Value: 580e3886424cb4bdad1f53dc515e78c7
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-razor-config-6\coverity_config.xml
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_translator Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_lang Value: Razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: comp_generic Value: razor
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll-.*
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: md5 Value: 004b0de293c07eddd6afd0f44b3a2d6e
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-vbc-config-0\coverity_config.xml
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.198225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_name Value: vbc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_translator Value: vbc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_lang Value: Visual Basic
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_generic Value: vbc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: id Value: vbc-vbc-.*
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: md5 Value: feeb8b03a6f975f0aaca18abe6c96895
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-vbc-config-1\coverity_config.xml
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_name Value: vbc.dll
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_translator Value: vbc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_lang Value: Visual Basic
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_generic Value: vbc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: id Value: vbc-vbc.dll-.*
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: md5 Value: fb11aa1996139335dbc0bdc5b4851b37
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc-config-0\coverity_config.xml
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_name Value: cl
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_translator Value: msvc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_generic Value: msvc
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: id Value: msvc-cl-.*
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: id Value: msvc_cxx-cl-.*
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc-config-0/../user_nodefs.h
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: md5 Value: 6ff8accc4b09ad4e240f1b39a5f34507
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_link-config-0\coverity_config.xml
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_name Value: link
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_translator Value: msvc_link
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: comp_generic Value: msvc_link
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: id Value: msvc_link-link-.*
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_link-config-0/../user_nodefs.h
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|>   Node: md5 Value: b1e089736178f146e1b07715b3996fec
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.199225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_lib-config-0\coverity_config.xml
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_name Value: lib
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_translator Value: msvc_lib
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_generic Value: msvc_lib
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: id Value: msvc_lib-lib-.*
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-msvc_lib-config-0/../user_nodefs.h
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: md5 Value: 05f25d5becfea0c774651a40c16d3955
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-4\coverity_config.xml
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_name Value: i686-w64-mingw32-gcc
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: id Value: gcc-i686-w64-mingw32-gcc-.*
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-4/../user_nodefs.h
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: id Value: g++-i686-w64-mingw32-gcc-.*
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-4/../user_nodefs.h
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: id Value: g++cc-i686-w64-mingw32-gcc-.*
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-4/../user_nodefs.h
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: md5 Value: bf6993a099e771fa418cf99f18c8c743
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-4\coverity_config.xml
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_name Value: i686-w64-mingw32-g++
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: id Value: g++-i686-w64-mingw32-g++-.*
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-4/../user_nodefs.h
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: id Value: g++cc-i686-w64-mingw32-g++-.*
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-4/../user_nodefs.h
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: md5 Value: 3699d489bd3fb1d0532a97c1c60b17fd
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-5\coverity_config.xml
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.200231Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_name Value: i686-w64-mingw32-c++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: g++-i686-w64-mingw32-c++-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-5/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: g++cc-i686-w64-mingw32-c++-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-5/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: md5 Value: 861391c3175b2a4cad6e33dec3530f6e
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-5\coverity_config.xml
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_name Value: mingw32-gcc
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: gcc-mingw32-gcc-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-5/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: g++-mingw32-gcc-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-5/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: g++cc-mingw32-gcc-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-5/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: md5 Value: 92bed253c31c6e0c16c331ead6b8a5c3
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-6\coverity_config.xml
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_name Value: mingw32-g++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: g++-mingw32-g++-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-6/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: id Value: g++cc-mingw32-g++-.*
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-6/../user_nodefs.h
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: md5 Value: e258665abf26cea59da104644dc18b4b
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-7\coverity_config.xml
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_name Value: mingw32-c++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.201225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++-mingw32-c++-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-7/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++cc-mingw32-c++-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-7/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: md5 Value: 751713ab7f274fba09df94f58dced4f4
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-6\coverity_config.xml
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_name Value: x86_64-w64-mingw32-gcc
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_translator Value: gcc
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_lang Value: C
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: gcc-x86_64-w64-mingw32-gcc-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-6/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++-x86_64-w64-mingw32-gcc-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-6/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++cc-x86_64-w64-mingw32-gcc-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-gcc-config-6/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: md5 Value: f8fdcb23c88bd32eacd2e0a605805ec6
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-8\coverity_config.xml
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_name Value: x86_64-w64-mingw32-g++
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++-x86_64-w64-mingw32-g++-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-8/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++cc-x86_64-w64-mingw32-g++-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-8/../user_nodefs.h
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: md5 Value: b0a9753eabb6617cd31c3a6dc8aab363
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-9\coverity_config.xml
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|> Node: coverity
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: cit_version Value: 1
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>   Node: config
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>     Node: build
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: compiler
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: template_compiler Value: true
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_name Value: x86_64-w64-mingw32-c++
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_translator Value: g++
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_lang Value: C++
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: comp_generic Value: gnu
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: id Value: g++-x86_64-w64-mingw32-c++-.*
+2025-12-02T20:38:46.202225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-9/../user_nodefs.h
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|>       Node: options
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|>         Node: id Value: g++cc-x86_64-w64-mingw32-c++-.*
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|>         Node: opt_preinclude_file Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\coverity-cli\build-compiler-configs\template-g++-config-9/../user_nodefs.h
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|>         Node: begin_command_line_config
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|>   Node: md5 Value: ec52b51c3292bb6eebd38c11c37301fa
+2025-12-02T20:38:46.203225Z|cov-build|3584|info|> 
+2025-12-02T20:38:46.232856Z|cov-internal-capture|28408|info|> Running build command: "C:\Windows\system32\cmd.exe"  /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:46.232856Z|cov-internal-capture|28408|info|> Launching in directory C:/blackduck/tests/VB-net/all-my-code/product2
+2025-12-02T20:38:46.244615Z|cov-internal-capture|28408|info|> EXECUTING: "C:\Windows\system32\cmd.exe"  /c devenv SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:46.273675Z|cov-internal-capture|28408|info|> EXECUTING: devenv  SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:46.353774Z|cov-internal-capture|28408|info|> EXECUTING: devenv.exe  SpectreConsoleMenuVisualBasic.sln /Build
+2025-12-02T20:38:46.353774Z|cov-internal-capture|28408|info|> [WARNING] Could not find MSVC compiler in the same Visual Studio installation as the invoked devenv. Assuming this is VS 2010, i.e. this devenv supports msbuild reuse.
+2025-12-02T20:38:47.797667Z|cov-internal-capture|28408|info|> EXECUTING: "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe" /noautoresponse /nologo /nodemode:1 /nodeReuse:false /low:false
+2025-12-02T20:38:47.813617Z|cov-internal-capture|28408|info|> EXECUTING: \??\C:\Windows\system32\conhost.exe 0x4
+2025-12-02T20:38:49.279324Z|cov-internal-capture|28408|info|> EXECUTING: "C:\Program Files\dotnet\sdk\10.0.100\Roslyn\binfx\..\bincore\vbc.exe"  /noconfig @"C:\Users\AlBessey\AppData\Local\Temp\MSBuildTemp\tmp5cdfad0d4cf847aba0bd38ac54ae581c.rsp"
+2025-12-02T20:38:49.307800Z|cov-internal-capture|28408|info|> EXECUTING: \??\C:\Windows\system32\conhost.exe 0x4
+2025-12-02T20:38:51.275237Z|cov-internal-capture|28408|info|> EXECUTING: "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe" /noautoresponse /nologo /nodemode:1 /nodeReuse:false /low:false
+2025-12-02T20:38:51.275237Z|cov-internal-capture|28408|info|> CWD: C:\blackduck\tests\VB-net\all-my-code\product2\MenuSimpleApp_vb\
+2025-12-02T20:38:51.275237Z|cov-internal-capture|28408|info|> COMPILING: C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-translate.exe "C:\Program Files\dotnet\sdk\10.0.100\Roslyn\binfx\..\bincore\vbc.exe" /noconfig @"C:\Users\AlBessey\AppData\Local\Temp\MSBuildTemp\tmp5cdfad0d4cf847aba0bd38ac54ae581c.rsp"
+2025-12-02T20:38:51.275237Z|cov-internal-capture|28408|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-15e206477c547cb534551b8ac41fda8d.s
+2025-12-02T20:38:51.308794Z|cov-internal-capture|28408|info|> EXECUTING: \??\C:\Windows\system32\conhost.exe 0x4
+2025-12-02T20:38:51.354487Z|cov-translate|33880|output|> Encountered compiler invocation for first time, configuring it: c:/program files/dotnet/sdk/10.0.100/roslyn/bincore/vbc
+2025-12-02T20:38:51.354487Z|cov-translate|33880|output|> [STATUS] Using comptype vbc
+2025-12-02T20:38:51.718181Z|cov-translate|33880|output|> * Configuring c:\program files\dotnet\sdk\10.0.100\roslyn\bincore\vbc as a Visual Basic compiler
+2025-12-02T20:38:51.733954Z|cov-translate|33880|output|> [WARNING] Template config template-vbc-config-1 already exists for vbc.dll and will be reused. 
+2025-12-02T20:38:51.733954Z|cov-translate|33880|output|> [WARNING] Template config template-dotnet-config-0 already exists for dotnet and will be reused. 
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|> Added template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product2/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/2580342b3368129a2a72b0616984a85f/coverity_config.xml
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\emit\BD-45210\config\2580342b3368129a2a72b0616984a85f\coverity_config.xml
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|> Node: coverity
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>   Node: cit_version Value: 1
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>   Node: config
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>     Node: include Value: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\emit\BD-45210\config\2580342b3368129a2a72b0616984a85f\vbc-config-0\coverity_config.xml
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|> Configuration read from: C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\emit\BD-45210\config\2580342b3368129a2a72b0616984a85f\vbc-config-0\coverity_config.xml
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|> Node: coverity
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>   Node: cit_version Value: 1
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>   Node: config
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>     Node: build
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>       Node: compiler
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_name Value: vbc
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_dir Value: c:\program files\dotnet\sdk\10.0.100\roslyn\bincore
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_translator Value: vbc
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_lang Value: Visual Basic
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_front_end Value: cov-emit-vb
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_desc Value: Microsoft Visual Basic Compiler
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: comp_generic Value: vbc
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: id Value: vbc-vbc-2580342b3368129a2a72b0616984a85f-0
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: is_compiler Value: true
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: is_linker Value: false
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>       Node: options
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: id Value: vbc-vbc-2580342b3368129a2a72b0616984a85f-0
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: template_config_option_id Value: vbc-vbc-.*
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: compile_options
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: pre_trans
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>           Node: options
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>             Node: prepend_arg Value: -coverity_source=vb
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>             Node: intern_trans Value: vbc_pre_translate
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: expand
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>           Node: options
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>             Node: replace_arg_regex
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>               Node: with Value: --coverity_resp_file=$1
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>             Node: replace_arg_regex
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>               Node: replace Value: @+(.*)
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>               Node: with Value: --coverity_resp_file=$1
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>         Node: begin_command_line_config
+2025-12-02T20:38:51.739115Z|cov-translate|33880|output|>   Node: md5 Value: 56b19d13c763ac8f7a785a08ff4aabae
+2025-12-02T20:38:51.746572Z|cov-translate|33880|output|> COV_TRANSLATE EXPANDED ARGS: "/noconfig" "/sdkpath:C:\Windows\Microsoft.NET\Framework64\v4.0.30319\" "/imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics,System.Linq,System.Xml.Linq,System.Threading.Tasks" "/optioncompare:Binary" "/optionexplicit+" "/optionstrict+" "/nowarn:41999,42016,42017,42018,42019,42020,42021,42022,42032,42036" "/nosdkpath" "/optioninfer+" "/nostdlib" "/errorreport:prompt" "/removeintchecks+" "/preferreduilang:en-US" "/highentropyva+" "/vbruntime:C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.VisualBasic.dll" "/define:CONFIG="Debug",DEBUG=-1,TRACE=-1,PLATFORM="AnyCPU",_MyType="Empty",NET=-1,NET6_0=-1,NETCOREAPP=-1,NET5_0_OR_GREATER=-1,NET6_0_OR_GREATER=-1,NETCOREAPP1_0_OR_GREATER=-1,NETCOREAPP1_1_OR_GREATER=-1,NETCOREAPP2_0_OR_GREATER=-1,NETCOREAPP2_1_OR_GREATER=-1,NETCOREAPP2_2_OR_GREATER=-1,NETCOREAPP3_0_OR_GREATER=-1,NETCOREAPP3_1_OR_GREATER=-1" "/reference:C:\Users\AlBessey\.nuget\packages\consolehelperlibrary\1.0.2\lib\net6.0\ConsoleHelperLibrary.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.CSharp.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.VisualBasic.Core.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.VisualBasic.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.Win32.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.Win32.Registry.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\mscorlib.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\netstandard.dll,C:\Users\AlBessey\.nuget\packages\spectre.console\0.44.0\lib\net6.0\Spectre.Console.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.AppContext.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Buffers.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.Concurrent.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.Immutable.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.NonGeneric.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.Specialized.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.Annotations.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.DataAnnotations.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.EventBasedAsync.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.TypeConverter.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Configuration.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Console.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Core.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Data.Common.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Data.DataSetExtensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Data.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Contracts.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Debug.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.DiagnosticSource.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.FileVersionInfo.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Process.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.StackTrace.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.TextWriterTraceListener.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Tools.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.TraceSource.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Tracing.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Drawing.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Drawing.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Dynamic.Runtime.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Formats.Asn1.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Globalization.Calendars.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Globalization.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Globalization.Extensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.Brotli.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.FileSystem.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.ZipFile.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.AccessControl.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.DriveInfo.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.Watcher.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.IsolatedStorage.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.MemoryMappedFiles.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Pipes.AccessControl.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Pipes.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.UnmanagedMemoryStream.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.Expressions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.Parallel.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.Queryable.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Memory.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Http.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Http.Json.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.HttpListener.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Mail.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.NameResolution.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.NetworkInformation.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Ping.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Requests.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Security.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.ServicePoint.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Sockets.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebClient.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebHeaderCollection.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebProxy.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebSockets.Client.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebSockets.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Numerics.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Numerics.Vectors.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ObjectModel.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.DispatchProxy.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Emit.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Emit.ILGeneration.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Emit.Lightweight.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Extensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Metadata.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.TypeExtensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Resources.Reader.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Resources.ResourceManager.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Resources.Writer.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.CompilerServices.Unsafe.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.CompilerServices.VisualC.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Extensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Handles.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.InteropServices.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Intrinsics.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Loader.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Numerics.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Formatters.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Json.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Xml.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.AccessControl.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Claims.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Algorithms.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Cng.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Csp.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Encoding.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.OpenSsl.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Primitives.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.X509Certificates.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Principal.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Principal.Windows.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.SecureString.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ServiceModel.Web.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ServiceProcess.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encoding.CodePages.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encoding.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encoding.Extensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encodings.Web.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Json.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.RegularExpressions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Channels.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Overlapped.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.Dataflow.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.Extensions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.Parallel.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Thread.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.ThreadPool.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Timer.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Transactions.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Transactions.Local.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ValueTuple.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Web.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Web.HttpUtility.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Windows.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.Linq.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.ReaderWriter.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.Serialization.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XDocument.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XmlDocument.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XmlSerializer.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XPath.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XPath.XDocument.dll,C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\WindowsBase.dll" "/debug+" "/debug:portable" "/filealign:512" "/optimize-" "/out:obj\Debug\net6.0\MenuSimpleApp.dll" "/refout:obj\Debug\net6.0\refint\MenuSimpleApp.dll" "/target:exe" "/warnaserror-" "/utf8output" "/deterministic+" "/langversion:latest" "/analyzerconfig:obj\Debug\net6.0\MenuSimpleApp.GeneratedMSBuildEditorConfig.editorconfig" "/analyzerconfig:C:\Program Files\dotnet\sdk\10.0.100\Sdks\Microsoft.NET.Sdk\analyzers\build\config\analysislevel_6_default.globalconfig" "/analyzer:C:\Program Files\dotnet\sdk\10.0.100\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.VisualBasic.NetAnalyzers.dll" "/analyzer:C:\Program Files\dotnet\sdk\10.0.100\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll" "Classes\MenuItem.vb" "Classes\MenuOperations.vb" "Classes\MockOperations.vb" "Program.vb" "obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.vb" "obj\Debug\net6.0\MenuSimpleApp.AssemblyInfo.vb" "/warnaserror+:NU1605"
+2025-12-02T20:38:51.765487Z|cov-translate|33880|output|> [WARNING] Switch not recognized by Coverity compiler: /preferreduilang:en-US
+2025-12-02T20:38:51.765487Z|cov-translate|33880|output|> [STATUS] Compiling 6 Visual Basic source files.
+2025-12-02T20:38:51.765487Z|cov-translate|33880|output|> [STATUS] Compiling Classes\MenuItem.vb, Classes\MenuOperations.vb, Classes\MockOperations.vb, Program.vb, obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.vb, obj\Debug\net6.0\MenuSimpleApp.AssemblyInfo.vb
+2025-12-02T20:38:51.765487Z|cov-translate|33880|output|> C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-record-source.exe --record-with-source-language vb --dll-caching --dir=C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir --force --lib . --lib C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ --compiler-dir "c:\program files\dotnet\sdk\10.0.100\roslyn\bincore" --noconfig --sdkpath C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ --imports Microsoft.VisualBasic --imports System --imports System.Collections --imports System.Collections.Generic --imports System.Diagnostics --imports System.Linq --imports System.Xml.Linq --imports System.Threading.Tasks --define CONFIG="Debug" --define DEBUG=-1 --define TRACE=-1 --define PLATFORM="AnyCPU" --define _MyType="Empty" --define NET=-1 --define NET6_0=-1 --define NETCOREAPP=-1 --define NET5_0_OR_GREATER=-1 --define NET6_0_OR_GREATER=-1 --define NETCOREAPP1_0_OR_GREATER=-1 --define NETCOREAPP1_1_OR_GREATER=-1 --define NETCOREAPP2_0_OR_GREATER=-1 --define NETCOREAPP2_1_OR_GREATER=-1 --define NETCOREAPP2_2_OR_GREATER=-1 --define NETCOREAPP3_0_OR_GREATER=-1 --define NETCOREAPP3_1_OR_GREATER=-1 --reference C:\Users\AlBessey\.nuget\packages\consolehelperlibrary\1.0.2\lib\net6.0\ConsoleHelperLibrary.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.CSharp.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.VisualBasic.Core.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.VisualBasic.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.Win32.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.Win32.Registry.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\mscorlib.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\netstandard.dll --reference C:\Users\AlBessey\.nuget\packages\spectre.console\0.44.0\lib\net6.0\Spectre.Console.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.AppContext.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Buffers.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.Concurrent.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.Immutable.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.NonGeneric.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Collections.Specialized.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.Annotations.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.DataAnnotations.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.EventBasedAsync.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ComponentModel.TypeConverter.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Configuration.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Console.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Core.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Data.Common.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Data.DataSetExtensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Data.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Contracts.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Debug.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.DiagnosticSource.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.FileVersionInfo.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Process.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.StackTrace.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.TextWriterTraceListener.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Tools.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.TraceSource.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Diagnostics.Tracing.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Drawing.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Drawing.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Dynamic.Runtime.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Formats.Asn1.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Globalization.Calendars.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Globalization.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Globalization.Extensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.Brotli.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.FileSystem.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Compression.ZipFile.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.AccessControl.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.DriveInfo.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.FileSystem.Watcher.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.IsolatedStorage.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.MemoryMappedFiles.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Pipes.AccessControl.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.Pipes.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.IO.UnmanagedMemoryStream.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.Expressions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.Parallel.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Linq.Queryable.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Memory.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Http.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Http.Json.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.HttpListener.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Mail.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.NameResolution.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.NetworkInformation.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Ping.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Requests.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Security.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.ServicePoint.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.Sockets.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebClient.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebHeaderCollection.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebProxy.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebSockets.Client.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Net.WebSockets.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Numerics.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Numerics.Vectors.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ObjectModel.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.DispatchProxy.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Emit.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Emit.ILGeneration.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Emit.Lightweight.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Extensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Metadata.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Reflection.TypeExtensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Resources.Reader.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Resources.ResourceManager.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Resources.Writer.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.CompilerServices.Unsafe.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.CompilerServices.VisualC.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Extensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Handles.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.InteropServices.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Intrinsics.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Loader.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Numerics.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Formatters.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Json.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Runtime.Serialization.Xml.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.AccessControl.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Claims.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Algorithms.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Cng.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Csp.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Encoding.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.OpenSsl.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.Primitives.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Cryptography.X509Certificates.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Principal.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.Principal.Windows.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Security.SecureString.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ServiceModel.Web.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ServiceProcess.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encoding.CodePages.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encoding.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encoding.Extensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Encodings.Web.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.Json.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Text.RegularExpressions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Channels.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Overlapped.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.Dataflow.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.Extensions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Tasks.Parallel.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Thread.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.ThreadPool.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Threading.Timer.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Transactions.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Transactions.Local.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.ValueTuple.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Web.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Web.HttpUtility.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Windows.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.Linq.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.ReaderWriter.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.Serialization.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XDocument.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XmlDocument.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XmlSerializer.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XPath.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\System.Xml.XPath.XDocument.dll --reference C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\WindowsBase.dll --lib "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\ATLMFC\lib\x86" --lib "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\lib\x86" --lib "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x86" --lib "C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x86" --lib "C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x86" --out obj\Debug\net6.0\MenuSimpleApp.dll --vbruntime-path C:\Users\AlBessey\.nuget\packages\microsoft.netcore.app.ref\6.0.36\ref\net6.0\Microsoft.VisualBasic.dll --nostdlib --optionexplicit + --optioninfer + --optionstrict + --removeintchecks + Classes/MenuItem.vb Classes/MenuOperations.vb Classes/MockOperations.vb Program.vb obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.vb obj/Debug/net6.0/MenuSimpleApp.AssemblyInfo.vb 
+2025-12-02T20:38:51.776183Z|cov-translate|33880|output|> Command line with response file: C:\Users\AlBessey\.blackduck\bridge\tools\cov-thin-client\2025.9.0\bin\cov-record-source.exe @utf8@C:\blackduck\tests\VB-net\all-my-code\product2\.bridge\polaris_coverity_capture\2025.9.0\idir\tmp\cov-emit-vb-54c634ce3397c7d1a052c0fde27dedb1-0.cmd_args.txt --record-with-source-language vb
+2025-12-02T20:38:53.501777Z|cov-translate|33880|output|> [INFO] Time spent in cov-internal-manage-cache: 0 s. Exit code: 0
+2025-12-02T20:38:53.723832Z|cov-translate|33880|output|> Recorded 6 source files.
+2025-12-02T20:38:53.723832Z|cov-translate|33880|output|> Recorded 162 dlls.
+2025-12-02T20:38:53.739588Z|cov-translate|33880|output|> 
+2025-12-02T20:38:54.651552Z|cov-build|3584|info|> 
+2025-12-02T20:38:54.651552Z|cov-build|3584|info|> Build time (cov-build overall): 00:00:09.483249
+2025-12-02T20:38:54.651552Z|cov-build|3584|info|> 
+2025-12-02T20:38:54.651552Z|cov-build|3584|info|> Build time (.NET bytecode/Visual Basic emits total): 00:00:02.426102
+2025-12-02T20:38:54.651552Z|cov-build|3584|info|> 
+2025-12-02T20:38:54.657568Z|cov-build|3584|info|> Recorded 6 Visual Basic compilation units (100%) successfully. These compilation units are ready for replay
+2025-12-02T20:38:54.657568Z|cov-build|3584|info|> 
+2025-12-02T20:38:54.657568Z|cov-build|3584|info|> The cov-build utility completed successfully.
+2025-12-02T20:38:54.721175Z|cov-build|3584|info|> 

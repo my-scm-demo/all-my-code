@@ -1,0 +1,8 @@
+Encountered compiler invocation for first time, configuring it: c:/program files/microsoft visual studio/18/community/msbuild/current/bin/roslyn/vbc
+[STATUS] Using comptype vbc
+Added template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/4757b806fcf2fb12efabf144b63e82ab/coverity_config.xml
+Added template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+Using cached template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+Using cached template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/4757b806fcf2fb12efabf144b63e82ab/coverity_config.xml
+Using cached template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+Using cached template compiler configuration instance C:/blackduck/tests/VB-net/all-my-code/product1/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-45210/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml

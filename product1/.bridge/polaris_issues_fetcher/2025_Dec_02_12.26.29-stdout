@@ -1,0 +1,5 @@
+C:\Users\AlBessey\Desktop\temp\bridge-cli-bundle-3.10.0-win64\adapters\polaris-issues-fetcher\versions\0.2.83/polaris-issues-fetcher C:\blackduck\tests\VB-net\all-my-code\product1\.bridge\polaris_issues_fetcher\data.json
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SAST(sastFull)\" assessment","time":"2025-12-02 12:26:30.2166 EST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SCA(scaPackage)\" assessment","time":"2025-12-02 12:26:30.2171 EST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SAST(sastFull)\" with id \"4976d2d8-fb44-4362-a23d-7c4db8cead51\"\n {\n \"critical\": 0,\n \"high\": 1,\n \"informational\": 0,\n \"low\": 0,\n \"medium\": 0\n}\n","time":"2025-12-02 12:26:30.9786 EST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SCA(scaPackage)\" with id \"794c8c18-12c5-450d-aefe-22efa16823a8\"\n {\n \"critical\": 0,\n \"high\": 0,\n \"informational\": 0,\n \"low\": 0,\n \"medium\": 0\n}\n","time":"2025-12-02 12:26:30.9915 EST"}
