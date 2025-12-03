@@ -1,8 +1,8 @@
 on:
   schedule:
     - cron: '0 8 * * 1-5'
-  push:
-    branches: [ main ]
+  #push:
+  #  branches: [ main ]
 
 jobs:
   polaris:
@@ -37,7 +37,7 @@ jobs:
         cd product2
         dir
         #devenv SpectreConsoleMenuVisualBasic.sln /build
-        msbuild SpectreConsoleMenuVisualBasic.sln /t:build
+        #msbuild SpectreConsoleMenuVisualBasic.sln /t:build
     - name: Polaris Scan
       uses: blackduck-inc/black-duck-security-scan@v2
       with:
