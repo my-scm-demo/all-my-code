@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zvGo+DTMUXg=",
+  "success": true,
+  "projectFilePath": "C:\\blackduck\\tests\\VB-net\\all-my-code\\product2\\MenuSimpleApp_vb\\MenuSimpleApp.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AlBessey\\.nuget\\packages\\consolehelperlibrary\\1.0.2\\consolehelperlibrary.1.0.2.nupkg.sha512",
+    "C:\\Users\\AlBessey\\.nuget\\packages\\spectre.console\\0.44.0\\spectre.console.0.44.0.nupkg.sha512",
+    "C:\\Users\\AlBessey\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\AlBessey\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\AlBessey\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\AlBessey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
