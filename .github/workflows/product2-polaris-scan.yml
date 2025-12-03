@@ -17,7 +17,7 @@ jobs:
 
     - name: Restore NuGet Packages
       run: nuget restore SpectreConsoleMenuVisualBasic.sln # Replace with your solution file name
-      working-directory: ${{ github.workspace/product2 }} # Ensure the command runs in the correct directory
+      working-directory: ${{ github.workspace }}/product2 # Ensure the command runs in the correct directory
 
     - name: Find Visual Studio Installation and Add Devenv to PATH
       shell: powershell
