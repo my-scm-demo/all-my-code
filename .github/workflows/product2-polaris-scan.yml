@@ -36,7 +36,8 @@ jobs:
       run: |
         cd product2
         dir
-        devenv SpectreConsoleMenuVisualBasic.sln /build
+        #devenv SpectreConsoleMenuVisualBasic.sln /build
+        msbuild SpectreConsoleMenuVisualBasic.sln /t:build
     - name: Polaris Scan
       uses: blackduck-inc/black-duck-security-scan@v2
       with:
