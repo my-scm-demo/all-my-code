@@ -3,8 +3,8 @@
 
 capture:
   build:
-    build-command: "devenv SpectreConsoleMenuVisualBasic.sln /Build"
-    clean-command: "devenv SpectreConsoleMenuVisualBasic.sln /Clean"
+    build-command: "msbuild SpectreConsoleMenuVisualBasic.sln /t:Build"
+    clean-command: "msbuild SpectreConsoleMenuVisualBasic.sln /t:Clean"
 analyze:
   aggressiveness-level: "high"
   trust:
